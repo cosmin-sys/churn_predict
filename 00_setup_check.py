@@ -1,15 +1,8 @@
-"""
-Setup and dependency check script
-Run this first to verify all dependencies are installed
-"""
-
 import sys
 import subprocess
 import os
 
-def check_and_install_dependencies():
-    """Check and install required dependencies"""
-    
+def check_and_install_dependencies():   
     required_packages = {
         'pandas': 'pandas',
         'numpy': 'numpy',
